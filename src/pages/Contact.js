@@ -19,11 +19,18 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
+    const templateParams = {
+      from_name: formData.name, // Map the form's name to from_name
+      from_email: formData.email, // Optionally use email as well
+      message: formData.message,
+      to_name: "Tarun", // You can hard-code or dynamically get this if needed
+    };
+
     emailjs
       .send(
         'service_r8pow69', // Replace with your EmailJS service ID
         'template_8wk3byg', // Replace with your EmailJS template ID
-        formData
+        templateParams
       )
       .then(
         (response) => {

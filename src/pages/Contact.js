@@ -21,18 +21,20 @@ const Contact = () => {
 
     emailjs
       .send(
-        'service_qj4k27I', // Replace with your EmailJS service ID
-        'template_hnuuayb', // Replace with your EmailJS template ID
+        'service_r8pow69', // Replace with your EmailJS service ID
+        'template_8wk3byg', // Replace with your EmailJS template ID
         formData
       )
       .then(
         (response) => {
           console.log("SUCCESS!", response.status, response.text);
           alert("Your message has been sent!");
+          window.location.reload();
         },
         (err) => {
           console.log("FAILED...", err);
           alert("Failed to send the message. Please try again.");
+          window.location.reload();
         }
       );
   };

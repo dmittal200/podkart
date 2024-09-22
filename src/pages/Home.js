@@ -147,10 +147,10 @@ const Home = () => {
 
       {/* YouTube Section */}
       <section className="mt-8 flex flex-col lg:flex-row items-center justify-between">
-        {/* Video on the left */}
-        <div className="lg:w-1/2 w-full lg:pr-6">
+    {/* Video on the left */}
+    <div className="lg:w-1/2 w-full lg:pr-6">
         <iframe
-            width="80%"
+            className="w-full max-w-md mx-auto" // Center and limit width
             height="315"
             src="https://www.youtube.com/embed/n6ELP9htAD0"
             title="YouTube video player"
@@ -158,11 +158,11 @@ const Home = () => {
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
         ></iframe>
-        </div>
-        
-        {/* Enhanced Right Section */}
-        <div className="lg:w-1/2 w-full lg:pl-6 mt-6 lg:mt-0">
-            <div className="bg-white p-6 shadow-lg rounded-lg">
+    </div>
+    
+    {/* Enhanced Right Section */}
+    <div className="lg:w-1/2 w-full lg:pl-6 mt-6 lg:mt-0">
+        <div className="bg-white p-6 shadow-lg rounded-lg">
             <h2 className="text-3xl font-bold text-gray-800 mb-4">Check Out Our YouTube Channel</h2>
             <p className="text-gray-600 mb-4">
                 The PodKart channel is mainly focused on the student community, especially those who want to pursue side hustles or have doubts regarding college life. This channel features podcasts with college pass-outs and current students who have started hustling or launched something during their college journey.
@@ -176,9 +176,9 @@ const Home = () => {
             >
                 Visit PodKart on YouTube
             </a>
-            </div>
         </div>
-    </section>
+    </div>
+</section>
     </main>
   );
 };

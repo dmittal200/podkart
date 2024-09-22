@@ -20,7 +20,7 @@ const Contact = () => {
     e.preventDefault();
 
     const templateParams = {
-      from_name: formData.name, // Map the form's name to from_name
+      from_name: formData.email, // Map the form's name to from_name
       from_email: formData.email, // Optionally use email as well
       message: formData.message,
       to_name: "Tarun", // You can hard-code or dynamically get this if needed

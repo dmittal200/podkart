@@ -30,19 +30,21 @@ const Home = () => {
     <main className="p-6 bg-gray-50">
       {/* Welcome Section */}
       <section className="mb-8">
-        <div className="relative mb-6">
-          <Slider {...sliderSettings}>
-            <div className="h-64 bg-gradient-to-r from-blue-400 to-purple-500 flex items-center justify-center rounded-lg shadow-lg transition-transform transform hover:scale-105">
-              <h2 className="text-5xl font-bold text-white text-center">Boost Your Business!</h2>
+      <div className="relative mb-6">
+        <Slider {...sliderSettings}>
+            <div className="h-64 flex items-center justify-center bg-gradient-to-r from-blue-400 to-purple-500 rounded-lg shadow-lg transition-transform transform hover:scale-105">
+            <h2 className="text-5xl font-bold text-white text-center mt-12">Boost Your Business!</h2>
             </div>
-            <div className="h-64 bg-gradient-to-r from-green-400 to-teal-500 flex items-center justify-center rounded-lg shadow-lg transition-transform transform hover:scale-105">
-              <h2 className="text-5xl font-bold text-white text-center">Digital Marketing Solutions</h2>
+            <div className="h-64 flex items-center justify-center bg-gradient-to-r from-green-400 to-teal-500 rounded-lg shadow-lg transition-transform transform hover:scale-105">
+            <h2 className="text-5xl font-bold text-white text-center mt-12">Digital Marketing Solutions</h2>
             </div>
-            <div className="h-64 bg-gradient-to-r from-yellow-400 to-orange-500 flex items-center justify-center rounded-lg shadow-lg transition-transform transform hover:scale-105">
-              <h2 className="text-5xl font-bold text-white text-center">Expert Website Development</h2>
+            <div className="h-64 flex items-center justify-center bg-gradient-to-r from-yellow-400 to-orange-500 rounded-lg shadow-lg transition-transform transform hover:scale-105">
+            <h2 className="text-5xl font-bold text-white text-center mt-12">Expert Website Development</h2>
             </div>
-          </Slider>
+        </Slider>
         </div>
+
+
         <div className="p-6 bg-white shadow-lg rounded-lg transition-shadow hover:shadow-xl">
             <h1 className="text-4xl font-bold text-gray-800 mb-4">
                 Welcome to Podkart: Your All-in-One Social Media Platform

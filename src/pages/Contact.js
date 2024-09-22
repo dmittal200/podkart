@@ -9,7 +9,7 @@ const Contact = () => {
   });
 
   useEffect(() => {
-    emailjs.init("B1FxMhzbub0g-jdW5");
+    emailjs.init("78phCnoDw_SI66GeM");
   }, []);
 
   const handleChange = (e) => {
@@ -21,8 +21,8 @@ const Contact = () => {
 
     emailjs
       .send(
-        'service_plmnmfq', // Replace with your EmailJS service ID
-        'template_uhhtynk', // Replace with your EmailJS template ID
+        'service_qj4k27I', // Replace with your EmailJS service ID
+        'template_hnuuayb', // Replace with your EmailJS template ID
         formData
       )
       .then(

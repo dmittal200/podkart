@@ -101,49 +101,82 @@ const Home = () => {
         </form>
       </section>
 
-      {/* Reviews Section */}
-      <section className="mb-8">
-        <h2 className="text-3xl font-bold text-gray-800 mb-4">What Our Clients Say</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          <div className="p-6 bg-white shadow-lg rounded-lg transition-shadow hover:shadow-xl flex flex-col items-start">
-            <MdFeedback className="text-blue-400 text-3xl mb-2" />
-            <p className="text-gray-600">"Fantastic service! My business has seen a great boost in engagement."</p>
-            <p className="font-semibold text-gray-800 mt-2">- Alex J.</p>
-          </div>
-          <div className="p-6 bg-white shadow-lg rounded-lg transition-shadow hover:shadow-xl flex flex-col items-start">
-            <MdFeedback className="text-green-400 text-3xl mb-2" />
-            <p className="text-gray-600">"Highly recommend! Their team was professional and attentive to our needs."</p>
-            <p className="font-semibold text-gray-800 mt-2">- Sarah W.</p>
-          </div>
-          <div className="p-6 bg-white shadow-lg rounded-lg transition-shadow hover:shadow-xl flex flex-col items-start">
-            <MdFeedback className="text-yellow-400 text-3xl mb-2" />
-            <p className="text-gray-600">"Great results from their digital marketing strategies! We saw immediate improvements."</p>
-            <p className="font-semibold text-gray-800 mt-2">- Michael T.</p>
-          </div>
+      {/* Case Studies and Marketing Achievements Section */}
+        <section className="mb-8">
+        <h2 className="text-3xl font-bold text-gray-800 mb-4">Our Case Studies and Marketing Achievements</h2>
+        <div className="p-6 bg-white shadow-lg rounded-lg transition-shadow hover:shadow-xl flex flex-col items-start">
+            <p className="text-gray-600 mb-4">
+            At PodKart, we pride ourselves on delivering outstanding results for our clients through tailored marketing strategies, innovative solutions, and a deep understanding of their business goals. Our case studies showcase the significant improvements in engagement, visibility, and brand recognition that our clients have experienced. 
+            <br /><br />
+            Whether it’s executing comprehensive digital marketing campaigns, optimizing SEO strategies, or developing personalized websites that resonate with the target audience, we ensure that each project is aligned with the client’s vision and objectives. By leveraging data-driven insights and industry best practices, we’ve helped businesses across various sectors achieve measurable growth and long-term success.
+            <br /><br />
+            From small businesses to large enterprises, our marketing efforts have led to a tangible increase in conversions, customer retention, and market penetration. Our portfolio of 100+ completed projects demonstrates our commitment to excellence and the positive impact we’ve made on businesses.
+            </p>
+            
+            {/* Button to LinkedIn Case Study */}
+            <a 
+            href="https://www.linkedin.com/in/tarunintrane/" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="inline-block bg-yellow-400 text-black font-semibold px-4 py-2 rounded-lg hover:bg-yellow-700 transition"
+            >
+            Review Our Case Study
+            </a>
         </div>
-      </section>
+        </section>
 
       {/* Projects Section */}
-      <section>
+        <section>
         <h2 className="text-3xl font-bold text-gray-800 mb-4">Our Recent Projects</h2>
+        <p className="text-gray-600 mb-6">
+            At PodKart, we have successfully completed over 100+ projects, ranging from assignments for college students to professional website development for creators. Our team has delivered high-quality solutions for Mechanical, Computer Science, and other engineering disciplines.
+        </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          <div className="p-6 bg-white shadow-lg rounded-lg transition-shadow hover:shadow-xl">
+            <div className="p-6 bg-white shadow-lg rounded-lg transition-shadow hover:shadow-xl">
             <FaLaptopCode className="text-blue-500 text-3xl mb-2" />
-            <h3 className="font-semibold text-gray-800">Project 1</h3>
-            <p className="text-gray-600">A dynamic e-commerce platform that enhances user engagement and sales.</p>
-          </div>
-          <div className="p-6 bg-white shadow-lg rounded-lg transition-shadow hover:shadow-xl">
+            <h3 className="font-semibold text-gray-800">Mechanical Engineering Projects</h3>
+            <p className="text-gray-600">
+                Delivered complex mechanical design and simulation projects, helping students achieve outstanding results in their coursework.
+            </p>
+            </div>
+            <div className="p-6 bg-white shadow-lg rounded-lg transition-shadow hover:shadow-xl">
             <FaChartLine className="text-green-500 text-3xl mb-2" />
-            <h3 className="font-semibold text-gray-800">Project 2</h3>
-            <p className="text-gray-600">An innovative marketing campaign that boosted brand awareness and loyalty.</p>
-          </div>
-          <div className="p-6 bg-white shadow-lg rounded-lg transition-shadow hover:shadow-xl">
+            <h3 className="font-semibold text-gray-800">Computer Science Projects</h3>
+            <p className="text-gray-600">
+                Provided solutions for advanced algorithms, software development, and AI/ML projects for computer science students.
+            </p>
+            </div>
+            <div className="p-6 bg-white shadow-lg rounded-lg transition-shadow hover:shadow-xl">
             <FaBullhorn className="text-yellow-500 text-3xl mb-2" />
-            <h3 className="font-semibold text-gray-800">Project 3</h3>
-            <p className="text-gray-600">A custom website that showcases our client’s unique offerings and values.</p>
-          </div>
+            <h3 className="font-semibold text-gray-800">Assignment Services</h3>
+            <p className="text-gray-600">
+                Assisted students in completing assignments across various subjects, including business management, engineering, and humanities.
+            </p>
+            </div>
+            <div className="p-6 bg-white shadow-lg rounded-lg transition-shadow hover:shadow-xl">
+            <FaLaptopCode className="text-blue-500 text-3xl mb-2" />
+            <h3 className="font-semibold text-gray-800">Web Development for Creators</h3>
+            <p className="text-gray-600">
+                Designed and developed websites for content creators and entrepreneurs, helping them establish their online presence and grow their brands.
+            </p>
+            </div>
+            <div className="p-6 bg-white shadow-lg rounded-lg transition-shadow hover:shadow-xl">
+            <FaChartLine className="text-green-500 text-3xl mb-2" />
+            <h3 className="font-semibold text-gray-800">Marketing and Branding</h3>
+            <p className="text-gray-600">
+                Launched successful marketing and branding campaigns that significantly increased client visibility and engagement.
+            </p>
+            </div>
+            <div className="p-6 bg-white shadow-lg rounded-lg transition-shadow hover:shadow-xl">
+            <FaBullhorn className="text-yellow-500 text-3xl mb-2" />
+            <h3 className="font-semibold text-gray-800">Custom Project Solutions</h3>
+            <p className="text-gray-600">
+                Tailored project solutions to meet unique client requirements across a variety of disciplines and industries.
+            </p>
+            </div>
         </div>
-      </section>
+        </section>
+
 
       {/* YouTube Section */}
       <section className="mt-8 flex flex-col lg:flex-row items-center justify-between">

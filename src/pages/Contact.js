@@ -57,7 +57,7 @@ const Contact = () => {
         </div>
   
         <footer className="mt-10 text-center text-gray-600">
-          <p>&copy; {new Date().getFullYear()} Podkart. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} The Podkart. All rights reserved.</p>
         </footer>
       </main>
     );

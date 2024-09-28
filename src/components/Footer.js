@@ -31,7 +31,7 @@ const Footer = () => {
         </div>
 
         {/* Horizontal line for separation */}
-        <hr style={{ borderTop: '1px solid rgba(255, 255, 255, 0.6)', width: '80%', margin: '20px auto' }} />
+        <hr style={{ borderTop: '1px solid rgba(255, 255, 255, 0.6)', width: '60%', margin: '20px auto' }} />
 
       </div>
 
